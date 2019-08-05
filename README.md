@@ -14,6 +14,8 @@ sw fetch took 4ms, therefore fromCache=true
 
 
 ## Safari 11.1+
-Suspect fetches made by service worker bypass the HTTP cache.
+~~Suspect fetches made by service worker bypass the HTTP cache.~~
 
-Either that or what we saw elsewhere was its devtools misreporting.
+~~Either that or what we saw elsewhere was its devtools misreporting.~~
+
+Does the same.
