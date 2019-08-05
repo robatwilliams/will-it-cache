@@ -3,7 +3,7 @@ doFetch();
 
 // Wait for request to finish before SW attempts
 setTimeout(() => {
-  navigator.serviceWorker.register('serviceWorker.js');
+  navigator.serviceWorker.register('serviceWorker.js', { updateViaCache: 'all' });
 }, 10000);
 
 function doFetch() {

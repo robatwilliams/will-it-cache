@@ -7,6 +7,8 @@ doFetch();
 setInterval(doFetch, 10000);
 
 function doFetch() {
+  self.registration.update();
+
   const start = Date.now();
 
   fetch('file.txt')
